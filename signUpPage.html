@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Mark Ortega-Ponce
+2/8/23
+CS311
+signUpPage.html
+-->
+<html lang="en">
+	<head>
+		<title>Sign up for activity alerts</title>
+		<meta charset="utf-8">
+		<!-- Responsive design -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Link the stylesheets -->
+		<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	<body>
+		<nav class="navigationBar">
+			<a href="index.html">Home</a>
+			<a href="winterActivities.html">Winter Activities</a>
+			<a href="signUpPage.html">Newsletter</a>
+		</nav>
+		
+		<h1>Welcome to our newsletter for events in Minnesota</h1>
+		<main>
+			<p>
+			If you are interested in receiving emails about any future events in Minnesota during the winter, feel 
+			free to sign up for our email listing. We try not to bother you too much, but sometimes we 
+			can't help it. Well will make it hard to unsubscribe from our email listing, 
+			so please put your email down if you really want to hear from us.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare 
+			lectus sit amet est. Vulputate eu scelerisque felis imperdiet proin fermentum 
+			leo. Fermentum dui faucibus in ornare. Pretium quam vulputate dignissim 
+			suspendisse in. Consequat semper viverra nam libero justo laoreet sit amet 
+			cursus. Sed velit dignissim sodales ut eu sem. Aliquam etiam erat velit 
+			scelerisque in dictum non consectetur. Nulla facilisi etiam dignissim diam. 
+			Sapienfaucibus et molestie ac feugiat sed. Adipiscing vitae proin sagittis nisl 
+			rhoncus mattis rhoncus. Congue eu consequat ac felis donec et. Sollicitudin 
+			ac orci phasellus egestas tellus rutrum. Non sodales neque sodales ut etiam.
+			</p>
+		</main>
+		
+		<h2>Some highlights</h2>
+		<!-- Flex container for images -->
+		<div class="imageContainer">
+			<div>
+				<img src="images/winter1.jpg" alt="Winter setting, road in forest">
+			</div>
+			<div>
+				<img src="images/winter2.jpg" alt="Overlook of the mountains with cabin">
+			</div>
+			<div>
+				<img src="images/winter3.jpg" alt="Aurora, cabin in the foreground, mountains in the background">
+			</div>
+		</div>
+		
+		<br>
+		<h2>Sign up here to receive updates for any new events</h2>
+		<!-- Sign up form -->
+		<form action="https://www.example.org" method="post">
+			<div>
+				<label for="emailAddress">Email Adress:</label>
+				<input type="email" name="emailAddress" id="emailAddress">
+			</div>
+			<div>
+				<label for="fullName">Full Name:</label>
+				<input type="text" name="fullName" id="fullName">
+			</div>
+			<div>
+				<label for="state">State you live in:</label>
+				<input type="text" name="state" id="state">
+			</div>
+			<input type="submit" value="Submit">
+		</form>
+		
+	</body>
+
+</html>

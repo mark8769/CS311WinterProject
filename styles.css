@@ -1,0 +1,53 @@
+/*
+Mark Ortega-Ponce
+2/8/23
+CS311
+styles.css
+*/
+
+/* Make line height in nav bar bigger */
+.navigationBar{
+	line-height: 40px;
+}
+/* Make inputs a bit bigger to fill empty white space */
+div > input {
+	width: 300px;
+	margin-bottom: 20px;
+}
+/* https://stackoverflow.com/questions/19236146/how-to-set-the-width-of-a-label-in-html */
+label{
+	/* To set width on inline items, have to change display attribute */
+	/* Used for aligning input boxes */
+	display: inline-block;
+	width: 150px;
+}
+/* Use flex container for images in newsletter and home page */
+.imageContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/* Set a default size for images */
+img{
+	height: 300px;
+	width: 400px;
+}
+/* Make images in table data smaller in height */
+td > img{
+	height: 200px;
+	width: 400px;
+}
+/* Align table headers text to the left with h1 element */
+th{
+	text-align: left;
+}
+div > div{
+	box-shadow: 0px 0px 20px;
+}
+
+div > div:hover{
+	transform: scale(1.05, 1.05);
+	color: red;  
+	/* cursor: pointer; */
+}
